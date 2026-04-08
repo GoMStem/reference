@@ -13,8 +13,16 @@ export default function ScrollInit() {
     )
 
     els.forEach(el => {
-      if (el.closest('#hero')) el.classList.add('visible')
-      else io.observe(el)
+      if (el.closest('#hero')) {
+        el.classList.add('visible')
+      } else {
+        const rect = el.getBoundingClientRect()
+        if (rect.top < window.innerHeight) {
+          el.classList.add('visible')
+        } else {
+          io.observe(el)
+        }
+      }
     })
 
     return () => io.disconnect()
