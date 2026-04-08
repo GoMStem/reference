@@ -1,6 +1,7 @@
 import './globals.css'
 import Nav from '@/components/Nav'
 import Sidebar from '@/components/Sidebar'
+import ScrollInit from '@/components/ScrollInit'
 
 export const metadata = {
   title: '김초은 | Junior Developer',
@@ -25,6 +26,7 @@ export default function RootLayout({ children }) {
       <body>
         <Nav />
         <Sidebar />
+        <ScrollInit />
         {children}
       </body>
     </html>

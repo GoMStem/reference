@@ -1,7 +1,10 @@
 'use client'
 import { useEffect } from 'react'
+import { usePathname } from 'next/navigation'
 
 export default function ScrollInit() {
+  const pathname = usePathname()
+
   useEffect(() => {
     const els = document.querySelectorAll('.fade-up')
 
@@ -26,7 +29,7 @@ export default function ScrollInit() {
     })
 
     return () => io.disconnect()
-  }, [])
+  }, [pathname])
 
   return null
 }
