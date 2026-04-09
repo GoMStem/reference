@@ -1,4 +1,5 @@
 import ContactForm from '@/components/ContactForm'
+
 export default function Home() {
   return (
     <main>
@@ -7,29 +8,24 @@ export default function Home() {
         <div className="inner hero-content">
           <div className="hero-badge fade-up">
             <span className="hero-badge-dot" />
-            Junior Developer
+            YOUR_TAGLINE
           </div>
-          <div className="hero-name fade-up d1">김초은</div>
-          <div className="hero-role fade-up d2">Junior Developer</div>
+          <div className="hero-name fade-up d1">YOUR_BRAND</div>
+          <div className="hero-role fade-up d2">YOUR_SLOGAN</div>
           <h1 className="hero-headline fade-up d3">
-            코드를 넘어,<br />
-            <em>처음부터 끝까지.</em>
+            신뢰할 수 있는,<br />
+            <em>최고의 선택.</em>
           </h1>
           <p className="hero-sub fade-up d4">
-            기획, 개발, 배포까지 — 프로그램의 모든 단계를 책임지는<br />
-            올라운더 개발자를 향해 성장 중입니다.
+            고객의 니즈를 정확히 파악하고, 최적의 솔루션을 제공합니다.<br />
+            처음부터 끝까지 함께하는 파트너가 되겠습니다.
           </p>
           <div className="hero-cta fade-up d5">
-            <a
-              href="https://github.com/choeun0524"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn btn-primary"
-            >
-              <i className="fab fa-github" /> GitHub 보러가기
+            <a href="#projects" className="btn btn-primary">
+              <i className="fa-solid fa-briefcase" /> 레퍼런스 보기
             </a>
             <a href="#contact" className="btn btn-outline">
-              연락하기 <i className="fa-solid fa-arrow-right" />
+              문의하기 <i className="fa-solid fa-arrow-right" />
             </a>
           </div>
         </div>
@@ -43,124 +39,119 @@ export default function Home() {
       <section id="about">
         <div className="inner">
           <div className="fade-up">
-            <span className="sec-label">About Me</span>
-            <h2 className="sec-title">나는 이런 개발자입니다</h2>
+            <span className="sec-label">About</span>
+            <h2 className="sec-title">소개</h2>
             <div className="sec-divider" />
           </div>
           <div className="about-grid">
             <div className="about-text fade-up d1">
               <p>
-                <strong>김초은</strong>입니다. 개발을 시작한 지 얼마 되지 않았지만,
-                단순히 기능을 구현하는 것을 넘어 서비스 전체를 이해하고
-                기획부터 배포까지 스스로 책임질 수 있는 개발자가 되고자 합니다.
+                <strong>YOUR_BRAND</strong>는 고객의 성공을 최우선으로 생각합니다.
+                업계 경험을 바탕으로 실질적인 가치를 제공하며,
+                지속적인 신뢰 관계를 구축합니다.
               </p>
               <p>
-                아직 경력은 짧지만, 매일 새로운 것을 배우고 기록하며 꾸준히 성장하고 있습니다.
-                좋은 코드는 깊은 이해에서 나온다고 믿으며, 문제의 근본을 파악하는 습관을 기르고 있습니다.
+                단순한 서비스 제공을 넘어, 고객과 함께 성장하는 파트너십을 지향합니다.
+                문제의 본질을 파악하고 맞춤형 솔루션을 통해 기대 이상의 결과를 만들어냅니다.
               </p>
               <p>
-                코드만 잘 짜는 개발자가 아닌, 팀과 함께 서비스를 만들어 나갈 수 있는
-                <strong>올라운더 개발자</strong>가 되는 것이 목표입니다.
+                품질과 신뢰를 바탕으로 오랫동안 기억되는 <strong>브랜드</strong>가 되는 것이
+                저희의 목표입니다.
               </p>
             </div>
             <div className="strength-cards">
               <div className="card fade-up d2">
-                <div className="card-icon">🔍</div>
-                <div className="card-title">올라운더 지향</div>
-                <p className="card-desc">기획 → 설계 → 개발 → 배포, 모든 단계를 이해하고 주도할 수 있는 개발자를 목표로 합니다.</p>
+                <div className="card-icon">🎯</div>
+                <div className="card-title">전문성</div>
+                <p className="card-desc">깊이 있는 전문 지식과 풍부한 경험으로 고객의 문제를 정확하게 해결합니다.</p>
               </div>
               <div className="card fade-up d3">
-                <div className="card-icon">🌱</div>
-                <div className="card-title">빠른 성장</div>
-                <p className="card-desc">매일 배우고 꾸준히 기록합니다. 어제보다 나은 코드를 작성하는 것을 즐깁니다.</p>
+                <div className="card-icon">🤝</div>
+                <div className="card-title">신뢰</div>
+                <p className="card-desc">투명한 소통과 약속을 지키는 자세로 오래가는 파트너십을 만들어갑니다.</p>
               </div>
               <div className="card fade-up d4">
-                <div className="card-icon">🤝</div>
-                <div className="card-title">커뮤니케이션</div>
-                <p className="card-desc">개발자와 비개발자 모두와 원활하게 소통하며 프로젝트를 이끌어갈 수 있습니다.</p>
+                <div className="card-icon">🚀</div>
+                <div className="card-title">성과</div>
+                <p className="card-desc">고객의 목표 달성을 위해 최선을 다하며, 측정 가능한 결과로 증명합니다.</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* ── SKILLS ── */}
+      {/* ── SERVICES ── */}
       <section id="skills">
         <div className="inner">
           <div className="fade-up">
-            <span className="sec-label">Tech Stack</span>
-            <p className="sec-sub">배우는 중이지만, 꾸준히 쌓고 있습니다</p>
-            <h2 className="sec-title">기술 스택</h2>
+            <span className="sec-label">Services</span>
+            <p className="sec-sub">고객의 필요에 맞춘 서비스를 제공합니다</p>
+            <h2 className="sec-title">서비스</h2>
             <div className="sec-divider" />
           </div>
           <div className="skill-rows">
             <div className="skill-row fade-up d1">
-              <div className="skill-cat">Language</div>
+              <div className="skill-cat">핵심 서비스</div>
               <div className="pills">
-                <span className="pill pill-green">HTML</span>
-                <span className="pill pill-green">CSS</span>
-                <span className="pill pill-green">JavaScript</span>
-                <span className="pill pill-green">Python</span>
+                <span className="pill pill-green">SERVICE_A</span>
+                <span className="pill pill-green">SERVICE_B</span>
+                <span className="pill pill-green">SERVICE_C</span>
               </div>
             </div>
             <div className="skill-row fade-up d2">
-              <div className="skill-cat">Tool</div>
+              <div className="skill-cat">부가 서비스</div>
               <div className="pills">
-                <span className="pill pill-gray">GitHub</span>
-                <span className="pill pill-gray">Notion</span>
+                <span className="pill pill-gray">SERVICE_D</span>
+                <span className="pill pill-gray">SERVICE_E</span>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* ── PROJECTS ── */}
+      {/* ── REFERENCES ── */}
       <section id="projects">
         <div className="inner">
           <div className="fade-up">
-            <span className="sec-label">Projects</span>
-            <p className="sec-sub">작지만 직접 만들었습니다</p>
-            <h2 className="sec-title">프로젝트</h2>
+            <span className="sec-label">References</span>
+            <p className="sec-sub">실제 진행한 프로젝트와 결과물입니다</p>
+            <h2 className="sec-title">레퍼런스</h2>
             <div className="sec-divider" />
           </div>
           <div className="proj-grid">
             <div className="proj-card fade-up d1">
-              <div className="proj-banner b1">📋</div>
+              <div className="proj-banner b1">📌</div>
               <div className="proj-body">
-                <div className="proj-name">Notion 학원 관리 페이지</div>
+                <div className="proj-name">PROJECT_NAME_A</div>
                 <p className="proj-desc">
-                  수업 일정, 학생과 학부모님 관리, 과제 트래킹까지 — 학원 운영에 필요한 모든 것을 하나의 Notion 페이지로 정리합니다.
-                  기능 구현에 그치지 않고, 실제로 쓰는 사람의 입장에서 생각하고 만듭니다.
-                  복잡한 정보를 한눈에 파악할 수 있도록 구조화된 템플릿을 직접 설계합니다.
+                  고객의 요구사항을 분석하고 최적의 방향으로 프로젝트를 완성했습니다.
+                  기획 단계부터 최종 납품까지 긴밀한 소통을 통해 만족스러운 결과를 도출했습니다.
                 </p>
                 <div className="proj-tags">
-                  <span className="tag">Notion</span>
-                  <span className="tag">문서설계</span>
-                  <span className="tag">템플릿</span>
+                  <span className="tag">TAG_A</span>
+                  <span className="tag">TAG_B</span>
+                  <span className="tag">TAG_C</span>
                 </div>
               </div>
             </div>
             <div className="proj-card fade-up d2">
-              <div className="proj-banner b2">🌐</div>
+              <div className="proj-banner b2">📌</div>
               <div className="proj-body">
-                <div className="proj-name">WordPress 홈페이지 제작</div>
+                <div className="proj-name">PROJECT_NAME_B</div>
                 <p className="proj-desc">
-                  디자인 툴에 의존하지 않고, 코드를 직접 작성해 완성도 높은 홈페이지를 구현합니다.
-                  WordPress 환경에서 HTML/CSS/JS를 활용한 커스텀 개발로 클라이언트의 니즈에 맞는
-                  웹사이트를 처음부터 끝까지 제작할 수 있습니다.
+                  고객사의 특성에 맞는 맞춤형 솔루션으로 기대 이상의 성과를 이끌어냈습니다.
+                  세밀한 요구사항 반영과 철저한 품질 관리를 통해 성공적으로 마무리했습니다.
                 </p>
                 <div className="proj-tags">
-                  <span className="tag">WordPress</span>
-                  <span className="tag">HTML</span>
-                  <span className="tag">CSS</span>
-                  <span className="tag">JavaScript</span>
+                  <span className="tag">TAG_A</span>
+                  <span className="tag">TAG_B</span>
                 </div>
               </div>
             </div>
             <div className="proj-card cs fade-up d3">
               <div className="cs-body">
-                <span className="e">🚀</span>
-                <p>더 많은 프로젝트를<br />준비 중입니다</p>
+                <span className="e">✨</span>
+                <p>더 많은 레퍼런스를<br />준비 중입니다</p>
               </div>
             </div>
           </div>
@@ -178,30 +169,28 @@ export default function Home() {
                 <div className="sec-divider" />
               </div>
               <p className="contact-copy fade-up d1">
-                같이 만들어 나가고 싶다면,<br />
-                편하게 연락주세요.
+                궁금한 점이 있으시거나<br />
+                함께 하고 싶다면 편하게 연락주세요.
               </p>
               <div className="contact-items fade-up d2">
                 <div className="citem">
                   <i className="fa-solid fa-envelope" />
-                  <a href="mailto:choeung551@gmail.com">choeung551@gmail.com</a>
+                  <a href="mailto:YOUR_EMAIL@example.com">YOUR_EMAIL@example.com</a>
                 </div>
                 <div className="citem">
-                  <i className="fab fa-github" />
-                  <a href="https://github.com/choeun0524" target="_blank" rel="noopener noreferrer">
-                    github.com/choeun0524
-                  </a>
+                  <i className="fa-solid fa-phone" />
+                  <a href="tel:010-0000-0000">010-0000-0000</a>
                 </div>
               </div>
               <div className="socials fade-up d3">
-                <a href="https://github.com/choeun0524" target="_blank" rel="noopener noreferrer" className="slink" aria-label="GitHub">
-                  <i className="fab fa-github" />
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="slink" aria-label="Instagram">
+                  <i className="fab fa-instagram" />
+                </a>
+                <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="slink" aria-label="YouTube">
+                  <i className="fab fa-youtube" />
                 </a>
                 <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="slink" aria-label="LinkedIn">
                   <i className="fab fa-linkedin-in" />
-                </a>
-                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="slink" aria-label="Instagram">
-                  <i className="fab fa-instagram" />
                 </a>
               </div>
             </div>
@@ -210,7 +199,7 @@ export default function Home() {
             </div>
           </div>
           <div className="contact-foot fade-up">
-            © {new Date().getFullYear()} 김초은. Crafted with passion.
+            © {new Date().getFullYear()} YOUR_BRAND. All rights reserved.
           </div>
         </div>
       </section>

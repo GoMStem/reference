@@ -4,8 +4,8 @@ import Sidebar from '@/components/Sidebar'
 import ScrollInit from '@/components/ScrollInit'
 
 export const metadata = {
-  title: '김초은 | Junior Developer',
-  description: '기획부터 배포까지 책임지는 올라운더 개발자를 향해 성장 중입니다.',
+  title: '홈페이지 | YOUR_BRAND',
+  description: '고객과 함께 성장하는 브랜드입니다. 서비스, 소개, 레퍼런스를 확인하세요.',
 }
 
 export default function RootLayout({ children }) {

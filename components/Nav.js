@@ -4,10 +4,10 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 
 const NAV_LINKS = [
-  { href: '#about',    label: 'About',   id: 'about'    },
-  { href: '#skills',   label: '기술스택', id: 'skills'   },
-  { href: '#projects', label: '프로젝트', id: 'projects' },
-  { href: '#contact',  label: '연락처',  id: 'contact'  },
+  { href: '#about',    label: '소개',     id: 'about'    },
+  { href: '#skills',   label: '서비스',   id: 'skills'   },
+  { href: '#projects', label: '레퍼런스', id: 'projects' },
+  { href: '#contact',  label: '연락처',   id: 'contact'  },
 ]
 
 export default function Nav() {
@@ -36,7 +36,7 @@ export default function Nav() {
 
   return (
     <nav id="nav" className={scrolled ? 'scrolled' : ''}>
-      <Link href="/" className="nav-logo">CE.</Link>
+      <Link href="/" className="nav-logo">BRAND.</Link>
 
       {isHome && (
         <>
