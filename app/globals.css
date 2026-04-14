@@ -602,6 +602,15 @@ section {
 .sidebar-nav a i { width: 18px; font-size: .9rem; color: var(--gray-400); transition: color .2s; }
 .sidebar-nav a:hover i, .sidebar-nav a.current i { color: var(--green); }
 .sidebar-nav a.current { color: var(--green); background: var(--green-pale); border-left-color: var(--green); font-weight: 700; }
+.sidebar-nav-disabled span {
+  display: flex; align-items: center; gap: .85rem;
+  padding: .9rem 1.75rem;
+  font-size: 1rem; font-weight: 500;
+  color: var(--gray-400);
+  border-left: 3px solid transparent;
+  cursor: default;
+}
+.sidebar-nav-disabled span i { width: 18px; font-size: .9rem; color: var(--gray-300); }
 
 .sidebar-footer { padding: 1.25rem 1.75rem; border-top: 1px solid var(--gray-100); font-size: .8rem; color: var(--gray-400); }
 

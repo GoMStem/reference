@@ -44,8 +44,23 @@ export default function Sidebar() {
               className={pathname.startsWith('/blog') ? 'current' : ''}
               onClick={() => setOpen(false)}
             >
-              <i className="fa-solid fa-pen-nib" /> 블로그
+              <i className="fa-solid fa-pen-nib" /> Posting
             </Link>
+          </li>
+          <li className="sidebar-nav-disabled">
+            <span>
+              <i className="fa-solid fa-layer-group" /> 메뉴 A
+            </span>
+          </li>
+          <li className="sidebar-nav-disabled">
+            <span>
+              <i className="fa-solid fa-star" /> 메뉴 B
+            </span>
+          </li>
+          <li className="sidebar-nav-disabled">
+            <span>
+              <i className="fa-solid fa-circle-info" /> 메뉴 C
+            </span>
           </li>
         </ul>
         <div className="sidebar-footer">© {new Date().getFullYear()} 김초은</div>
