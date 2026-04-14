@@ -2,7 +2,7 @@ import Link from 'next/link'
 import { getAllPosts } from '@/lib/posts'
 
 export const metadata = {
-  title: '블로그 | 김초은',
+  title: 'Posting | 김초은',
   description: '개발 여정을 기록하는 공간입니다.',
 }
 
@@ -21,8 +21,8 @@ export default function BlogPage() {
         <Link href="/" className="back-btn">
           <i className="fa-solid fa-arrow-left" /> 돌아가기
         </Link>
-        <span className="sec-label">Blog</span>
-        <h1 className="sec-title page-title">블로그</h1>
+        <span className="sec-label">Posting</span>
+        <h1 className="sec-title page-title">Posting</h1>
         <div className="sec-divider" />
       </div>
 
